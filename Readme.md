@@ -1,6 +1,7 @@
 # Try-Valkey Binary Image Repository
 
 This repository contains the binary files necessary for the Try-Valkey project. The repository is organized by Valkey versions, with each version stored in its own directory.
+This project is built upon the [v86 project](https://github.com/copy/v86).
 
 ## Repository Structure 
 
