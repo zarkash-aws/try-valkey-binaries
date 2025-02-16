@@ -8,7 +8,7 @@ on:
 
 jobs:
   call-upload-workflow:
-    uses: ./.github/workflows/upload-binaries-to-s3.yml@main
+    uses: ./.github/workflows/upload-binaries-to-s3.yml
     with:
       region: "eu-west-2"  # Change to your AWS region
     secrets:
