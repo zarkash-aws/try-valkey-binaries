@@ -3,7 +3,8 @@ name: Trigger S3 Upload
 on:
   push:
     branches:
-      - main  # Change this to the branch you want to trigger on
+      - main  # This will trigger on pushes to main
+  workflow_dispatch:  # This allows manual triggering
 
 jobs:
   call-upload-workflow:
