@@ -33,4 +33,4 @@ jobs:
           role-to-assume: ${{ secrets.role_to_assume }}
 
       - name: Upload binaries to S3
-        run: aws s3 sync . s3://${{ secrets.bucket_name }}/ --exclude "LICENSE" --exclude "Readme.md" --exclude ".github/*"
+        run: aws s3 sync . s3://${{ secrets.bucket_name }}/ --exclude "LICENSE" --exclude "Readme.md" --exclude ".github/*" --exclude ".git/*"
